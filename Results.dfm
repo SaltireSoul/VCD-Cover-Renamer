@@ -1,0 +1,112 @@
+object RenameForm: TRenameForm
+  Left = 332
+  Top = 503
+  BorderStyle = bsNone
+  Caption = 'Rename Form'
+  ClientHeight = 255
+  ClientWidth = 367
+  Color = 9070154
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Border: TShape
+    Left = 0
+    Top = 0
+    Width = 367
+    Height = 255
+    Align = alClient
+    Brush.Color = 9070154
+  end
+  object CoolForm: TCoolForm
+    left = 0
+    top = 0
+    width = 367
+    height = 255
+    Align = alClient
+    Center = True
+    Mask2 = {00000000}
+  end
+  object lblHeader: TLabel
+    Left = 48
+    Top = 16
+    Width = 273
+    Height = 25
+    Alignment = taCenter
+    Caption = '.:: Files With Problems ::.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object btnClose: TCoolButton
+    Left = 334
+    Top = 16
+    Width = 25
+    Height = 25
+    Hint = 'Close'
+    Caption = 'X'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = btnCloseClick
+  end
+  object Memo: TMemo
+    Left = 8
+    Top = 40
+    Width = 353
+    Height = 209
+    Color = 8410679
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 0
+    WordWrap = False
+  end
+  object XPMenu: TXPMenu
+    DimLevel = 30
+    GrayLevel = 10
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clMenuText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Color = 13160660
+    IconBackColor = 13160660
+    MenuBarColor = 13160660
+    SelectColor = 6956042
+    SelectBorderColor = 6956042
+    SelectFontColor = clBlack
+    DisabledColor = clGray
+    SeparatorColor = 13160660
+    CheckedColor = 6956042
+    IconWidth = 24
+    DrawSelect = True
+    UseSystemColors = False
+    OverrideOwnerDraw = False
+    Gradient = False
+    FlatMenu = False
+    AutoDetect = True
+    Active = True
+    Left = 328
+    Top = 216
+  end
+end
