@@ -1,2 +1,3 @@
-VCD Cover Renamer
+# VCD Cover Renamer
+
 [![BSD License](https://img.shields.io/badge/license-BSD-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
